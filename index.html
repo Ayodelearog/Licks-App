@@ -4,9 +4,185 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+    <script src="https://kit.fontawesome.com/7dab808947.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
+    <div class="grid-container">
+        <div class="grid-item left">
+            <div class="logo">
+                <img src="Images/Logo/Group 788.png" alt="">
+            </div>
+
+            <div class="nav">
+                
+                <div class="icon-and-name .active">
+                    <i class="icon"> <img src="Images/icons/local_dining.png" alt=""></i>
+                    <p class="name-of-icon">Food</p>
+                </div>
+                <div class="icon-and-name ">
+                    <i class="icon"> <img src="Images/icons/search.png" alt=""></i>
+                    <p class="name-of-icon">Explore</p>
+                </div>
+                <div class="icon-and-name ">
+                    <i class="icon"> <img src="Images/icons/shopping_cart.png" alt=""></i>
+                    <p class="name-of-icon">Cart</p>
+                </div>
+                <div class="icon-and-name ">
+                    <i class="icon"> <img src="Images/icons/history.png" alt=""></i>
+                    <p class="name-of-icon">Orders</p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="grid-item middle">
+            <div class="search-filter">
+                <img id="magnifying-glass" src="Icons/search.svg" alt="">
+                <!-- <i class="search">svg</i> -->
+                <input placeholder="Search for foods" id="search-bar" type="text">
+                <i class="fa-regular fa-heart fa-lg"></i>
+            </div>
+
+            <!-- Food slider -->
+            <div class="food-categories">
+                <h3>Food Categories</h3>
+                <p>View all</p>
+            </div>
+            <div class="food-categories slider">
+                <div class="food-img-caption">
+                    <img src="Images/Rectangle 7.png" alt="">
+                    <caption>Cakes</caption>
+                </div>
+                <div class="food-img-caption">
+                    <img src="Images/Rectangle 7 (1).png" alt="">
+                    <caption>Local Dishes</caption>
+                </div>
+                <div class="food-img-caption">
+                    <img src="Images/Rectangle 7 (2).png" alt="">
+                    <caption>Chinese</caption>
+                </div>
+                <div class="food-img-caption">
+                    <img src="Images/Rectangle 7 (3).png" alt="">
+                    <caption>Stew</caption>
+                </div>
+                <div class="food-img-caption">
+                    <img src="Images/Rectangle 7 (4).png" alt="">
+                    <caption>Seafood</caption>
+                </div>
+                <div class="food-img-caption">
+                    <img src="Images/Rectangle 7 (4).png" alt="">
+                    <caption>Seafood</caption>
+                </div>
+            </div>
+
+            <!-- Discounts category -->
+            <div class="Discounts">
+                <h3>Discounts</h3>
+                <p>View all</p>
+            </div>
+            <div class="Discounts slider">
+                <div class="Discounts-img-caption">
+                    <img src="Images/Frame 216.png" alt="">
+                    <div class="foodName-time">
+                        <p>Pounded Yam</p>
+                        <p>2 days to go</p>
+                    </div>
+                    <p class="OrderNow">Order now</p>
+                </div>
+                <div class="Discounts-img-caption">
+                    <img src="Images/Frame 216 (1).png" alt="">
+                    <div class="foodName-time">
+                        <p>Pounded Yam</p>
+                        <p>2 days to go</p>
+                    </div>
+                    <p class="OrderNow">Order now</p>
+                </div>
+            </div>
+
+            <!-- Most Reviewed -->
+            <div class="Most-reviewed">
+                <h3>Most Reviewed</h3>
+                <p>View all</p>
+            </div>
+            <div class="Most-reviewed slider">
+                <div class="Most-reviewed-img-caption">
+                    <img src="Images/Most-rev/Rectangle 7.png" alt="">
+                    <p class="foodName">Meatpie</p>
+                    <div class="rating-orderNow">
+                        <div class="rating-star">
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm fa-star-half fa-duotone"></i>
+                            <!-- <i class="fa-duotone fa-star-half"></i> -->
+                        </div>
+                        <p class="OrderNow">Order now</p>
+                    </div>
+                </div>
+                <div class="Most-reviewed-img-caption">
+                    <img src="Images/Most-rev/Rectangle 7 (1).png" alt="">
+                    <p class="foodName">Meatpie</p>
+                    <div class="rating-orderNow">
+                        <div class="rating-star">
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm fa-star-half fa-duotone"></i>
+                            <!-- <i class="fa-duotone fa-star-half"></i> -->
+                        </div>
+                        <p class="OrderNow">Order now</p>
+                    </div>
+                </div>
+                <div class="Most-reviewed-img-caption">
+                    <img src="Images/Most-rev/Rectangle 7 (4).png" alt="">
+                    <p class="foodName">Meatpie</p>
+                    <div class="rating-orderNow">
+                        <div class="rating-star">
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm"></i>
+                            <i class="fa fa-star fa-sm fa-star-half fa-duotone"></i>
+                            <!-- <i class="fa-duotone fa-star-half"></i> -->
+                        </div>
+                        <p class="OrderNow">Order now</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Weekly special  -->
+            <div class="Weekly-Special">
+                <h3>Weekly Special</h3>
+                <p>View all</p>
+            </div>
+            <div class="Weekly-Special slider">
+                
+                <div class="Weekly-Special-img-caption">
+                    <img src="Images/Weekly Special/Rectangle 7.png" alt="">
+                    
+                    <div class="foodName-orderNow">
+                        <p class="foodName">Doughnut</p>
+                        <p class="OrderNow">Order now</p>
+                    </div>
+                </div>
+                <div class="Weekly-Special-img-caption">
+                    <img src="Images/Weekly Special/Rectangle 7 (1).png" alt="">
+
+                    <div class="foodName-orderNow">
+                        <p class="foodName">Rice & Bean Combo</p>
+                        <p class="OrderNow">Order now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">3</div>
+        
+    </div>
     
 </body>
 </html>

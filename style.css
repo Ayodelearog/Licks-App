@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2F2F2;
+    width: 1728px;
+    height: 1117px;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 335px 645px 428px;
+    column-gap: 2.5rem;
+    justify-content: center;
+    
+}
+
+.grid-item {
+    background-color: #FFFFFF;
+    height: 1117px;
+    text-align: center;
+    
+}
+
+.grid-item.middle {
+    height: 1293px;
+    padding: 0 32px;
+    overflow-x: hidden;
+    
+}
+
+/* .middle::-webkit-scrollbar { 
+    display: none;
+    
+    width: 0px;
+    height: 0px;
+} */
+
+.search-filter {
+    display: flex;
+    width: 581px;
+    height: 48px;
+    margin: 48px 0;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#magnifying-glass {
+    position: absolute;
+    margin: 0 12px;
+    opacity: 0.6;
+}
+
+#search-bar {
+    width: 541px;
+    height: 48px;
+    border-radius: 8px;
+    margin-right: 8px;
+    border: 2px solid #d0d0d0;
+    outline: none;
+    padding-left: 2.5rem;
+
+}
+
+/* #search-bar::placeholder {
+    /* padding-left: 40px; */
+/* } */
+
+.food-categories {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-categories.slider {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    width: 100%;
+    height: 128px;
+    margin-bottom: 48px;
+    /* overflow-x:hidden;
+    overflow-y: hidden; */
+}
+
+.food-img-caption {
+    height: 100%;
+    display: grid;
+    margin-right: 24px;
+    
+}
+
+.food-img-caption img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 18px;
+}
+
+.Discounts {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Discounts.slider {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    width: 100%;
+    height: 212px;
+    margin-bottom: 48px;
+    /* overflow-x:hidden;
+    overflow-y: hidden; */
+}
+
+.Discounts-img-caption {
+    width: 100%;
+    margin-right: 24px;
+}
+
+.Discounts-img-caption img {
+    height: 164px;
+    height: 100%;
+    margin-bottom: 4px;
+    /* width: 100%; */
+}
+
+.foodName-time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.OrderNow {
+    text-align: start;
+    color: #D16014;
+    
+}
+
+.Most-reviewed {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Most-reviewed.slider {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    width: 100%;
+    height: 199px;
+    margin-bottom: 48px;
+    /* overflow-x:hidden;
+    overflow-y: hidden; */
+}
+
+.Most-reviewed-img-caption {
+    width: 100%;
+    margin-right: 24px;
+}
+
+.Most-reviewed-img-caption img {
+    height: 147px;
+    width: 195px;
+    margin-bottom: 4px;
+}
+
+.foodName {
+    text-align: start;
+    margin-bottom: .5rem;
+}
+
+.rating-orderNow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Weekly-Special {
+    width: 100%;
+    height: 28px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Weekly-Special.slider {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    width: 100%;
+    height: 254px;
+    margin-bottom: 48px;
+    /* overflow-x:hidden;
+    overflow-y: hidden; */
+}
+
+.Weekly-Special-img-caption {
+    width: 100%;
+    margin-right: 24px;
+}
+
+.Weekly-Special-img-caption img {
+    height: 222px;
+    width: 396px;
+    margin-bottom: 8px;
+}
+
+.foodName-orderNow {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Grid left */
+
+/* .grid-item.left {
+    height: 1293px;
+    padding: 0 32px;
+    overflow-x: hidden;
+    
+} */
+
+.logo {
+    width: 335px;
+    height: 53px;
+    margin-top: 3rem;
+    margin-bottom: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 159px;
+    height: 37px;
+}
+
+.active {
+    /* color: #da8349; */
+    border-left: solid 4px #da8349;
+}
+
+.icon-and-name {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    /* border-left: solid 4px #da8349; */
+}
+
+.icon-and-name .icon  {
+    margin-left: 2rem;
+    width: 18px;
+    height: 18px;
+    
+}
+
+.name-of-icon {
+    margin-left: 2rem;
+    
+}
